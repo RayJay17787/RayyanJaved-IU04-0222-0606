@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EXAMP PREP DOCUMENT</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container w-100 col-12 col-lg-4 col-sm-8 col-md-6">
+        <div style="border: none;" class="card mt-5 mx-auto">
+            <div class="row border rounded shadow">
+                <div class="col col-md-6">
+                    <div class="form">
+                        <h1 class="text-center mt-1">Form</h1>
+                        <form action="./basic.php" method="POST">
+                            <div class="mt-4 my-3">
+                                <label class="form-label">ID</label>
+                                <input name="user_id" id="userID" placeholder="ID" type="number" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Name</label>
+                                <input name="user_name" id="userName" placeholder="Name" class="form-control w-100"
+                                    type="text">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input name="user_email" id="userEmail" class="form-control" placeholder="Email"
+                                    type="email" name="" id="">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mark 1</label>
+                                <input name="user_mark1" id="mark_1" name="firstMark" placeholder="Mark 1"
+                                    class="form-control" type="number">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mark 2</label>
+                                <input name="user_mark2" id="mark_2" name="secondMark" placeholder="Mark 2"
+                                    type="number" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Mark 3</label>
+                                <input name="user_mark3" id="mark_3" name="thirdMark" placeholder="Mark 3" type="number"
+                                    class="form-control">
+                            </div>
+                            <input onclick="addDetail()" class="btn btn-primary w-100 my-4" id="submitButton"
+                                type="submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <h1 class="text-center mt-1">Table</h1>
+                    <div class="table">
+                        <div style="overflow: hidden;" class="my-3 table">
+                            <table id="input_table" class="table table-hover table-striped text-center w-100">
+                                <thead>
+                                    <tr>
+                                        <td>ID</td>
+                                        <td>Name</td>
+                                        <td>Email</td>
+                                        <td>Mark 1</td>
+                                        <td>Mark 2</td>
+                                        <td>Mark 3</td>
+                                        <td>Percentage</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

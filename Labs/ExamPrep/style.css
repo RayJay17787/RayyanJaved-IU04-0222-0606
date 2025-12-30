@@ -1,0 +1,7 @@
+#submitButton:hover{
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    color: rgb(60, 60, 255);
+    filter: drop-shadow(3px 3px 5px rgb(60, 60, 255));
+    font-weight: 700;
+}

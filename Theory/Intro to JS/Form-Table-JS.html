@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Form-Table-JS</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Intro to JS/style.css">
+    <script src="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container mb-3 py-3 mt-4" id="cont">
+        <h3 class="text-center mb-3 py-3">FORM TO TABLE THROUGH <b>JAVASCRIPT</b></h3>
+        <div class="card w-100 border rounded shadow" id="main-card">
+            <div class="card-body overflow-hidden" id="form-table-card">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <h4 class="text-center mb-3">Form For Input</h4>
+                        <form method="post">
+                            <div class="mb-3">
+                                <label class="form-label">First Name</label>
+                                <input class="form-control" type="text" id="first_name" placeholder="Your First Name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Last Name</label>
+                                <input class="form-control" type="text" id="last_name" placeholder="Your Last Name">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Contact Number</label>
+                                <input class="form-control" type="number" id="contact_number"
+                                    placeholder="Your Contact Number">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input class="form-control" type="email" id="email" placeholder="Your Email Address">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label">Address</label>
+                                <input class="form-control" type="text" id="address" placeholder="Your Address">
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary shadow mx-auto w-100" type="button" id="submit_button" onclick="addDetail()">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="text-center mb-3">Table</h4>
+
+                        <div class="table-responsive mx-auto">
+                            <table class = "table table-striped" id="input_table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            First Name
+                                        </th>
+                                        <th>
+                                            Last Name
+                                        </th>
+                                        <th>
+                                            Contact
+                                        </th>
+                                        <th>
+                                            Email
+                                        </th>
+                                        <th>
+                                            Address
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Form-Table-JS.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="text-center mb-4">Signup Form</h3>
+
+                        <form action="">
+                            <div class="mb-3">
+                                <label>first name</label>
+                                <input type="text" class="form-control" id="first_name" placeholder="Your Name"
+                                    name="first_name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label>last name</label>
+                                <input type="text" class="form-control" id="last_name" placeholder="Your Name"
+                                    name="last_name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label>Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="email@gmail.com"
+                                    name="email">
+                            </div>
+
+
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Enter your password" name="password">
+                            </div>
+
+
+
+                            <div class="mb-3">
+                                <label>Contact</label>
+                                <input type="text" class="form-control" id="contact" placeholder="03242339864"
+                                    name="contact">
+                            </div>
+
+
+
+                            <div class="mb-3">
+                                <label> address </label>
+                                <input type="text" class="form-control" id="address" placeholder="Your address"
+                                    name="address">
+                            </div>
+
+
+
+                            <div>
+                                <button onclick="DataPrint()" class="btn btn-success">Submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+    <script> function DataPrint() {
+        var fn = document.getElementById("first_name").value
+        var ln = document.getElementById("last_name").value
+        var em = document.getElementById("email").value
+        var pass = document.getElementById("password").value
+        var cont = document.getElementById("contact").value
+        var addr = document.getElementById("address").value
+        alert(fn)
+        alert(ln)
+        alert(em)
+        alert(pass)
+        alert(cont)
+        alert(addr)
+    } 
+    </script>
+</body>
+</html>

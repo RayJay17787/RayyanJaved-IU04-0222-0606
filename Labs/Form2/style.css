@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-2');
+
+body{
+    background-color: black;
+}
+
+#title{
+    font-size: 32px;
+    font-family: 'Instagram Sans Headline', sans-serif;
+}
+
+#bttn{
+    margin-top: -36px;
+    z-index: 100;
+}
+
+#submitButton{
+    background-color: blue;
+}
+
+#submitButton:hover{
+    background-color: black;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+#title, #card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title{
+    font-size: 300%;
+}
+
+#submitButton{
+    background-color: green;
+    border: green;
+    transition: .3s ease-in-out;
+}
+#submitButton:hover {
+    background-color: white;
+    color: green;
+    transition: .3s ease-in-out;
+}
+
+.card {
+    border: none;
+}
+
+
+

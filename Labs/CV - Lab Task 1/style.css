@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html { background: #efefef; }
+
+body {
+  color: #222;
+  background: #fff;
+  max-width: 1000px;    
+  margin: 40px auto;         
+  padding: 28px;          
+  box-sizing: border-box;
+  display: grid;
+  grid-column-gap: 28px;
+  grid-row-gap: 16px;
+}
+
+.mainText {
+  text-align: left;
+  margin-bottom: 6px;
+}
+.mainText h1 {
+  font-size: 44px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.mainText h2 {
+  font-size: 18px;
+  color: #777;
+  font-weight: 500;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+
+.details, .skills, .education {
+  grid-column: 1;              
+  padding-left: 18px;
+  border-right: 1px solid #e6e6e6;
+}
+
+.skills{
+    margin-top: -100%;
+}
+
+.education{
+    margin-top: -45%;
+}
+
+.profile, .experience {
+  grid-column: 2;
+}
+
+h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  border-top: 2px solid #eee;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 12px 0 8px;
+}

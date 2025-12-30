@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #1f242d;
+    height: 1250px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    filter: drop-shadow(5px 20px 5px #1f242d);
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navbar .logo:hover {
+   /* color: #008AD7;*/
+    font-weight: 800;
+    transition: .3s;
+    filter: drop-shadow(12px 12px 0px rgb(0, 0, 0));
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.navbar ul li:hover a{
+    color: #008AD7;
+    font-weight: 700;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+}
+
+.home-info h1{
+    font-size: 45px;
+    padding: 0px 0px 10px 0px;
+}
+
+.home-info h2{
+    font-size: 22px;
+    padding: 0px 0px 10px 0px;
+}
+
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-main{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #008AD7;
+    border: 2px solid #008AD7;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #1f242d;
+    border: 2px solid #008AD7;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #008AD7;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 800;
+    transition: .5s;
+    animation: ease-in-out;
+}
+
+.home-img img{
+    display: flex;
+    padding: 50px 50px;
+    height: 65%;
+    transition: .2s ease-in-out;
+}
+
+.home-img img:hover{
+    display: flex;
+    padding: 50px 50px;
+    height: 65%;
+    filter: drop-shadow(0 0 6px #008AD7);
+    transition: .2s ease-in-out;
+}
+
+.clientele .clients{
+    display: inline-block;
+    position: relative;
+    align-items: center;
+}
+
+.clientele .clients img{
+    margin-top: 60px;
+    margin-left: 85px;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+    width: 10%;
+}
+
+#xboxlogo{
+    transition: transform .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+#xboxlogo:hover{
+    filter: opacity(100);
+    filter: drop-shadow(0 0 15px #0e7a0d);
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+#pslogo{
+    transition: transform .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+#pslogo:hover{
+    filter: opacity(100);
+    filter: drop-shadow(0 0 15px #006FCD);
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+#ninlogo{
+    transition: transform .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+#ninlogo:hover{
+    filter: opacity(100);
+    filter: drop-shadow(0 0 15px #ff0015);
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+#segalogo{
+    transition: transform .5s ease-in-out;
+    filter: opacity(.5);
+}
+
+#segalogo:hover{
+    filter: opacity(100);
+    filter: drop-shadow(0 0 15px #17569b);
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+#winlogo{
+    transition: transform .3s ease-in-out;
+    filter: opacity(.5);
+}
+
+#winlogo:hover{
+    transform: scale(1.3);
+    animation: WinGlow 1.2s infinite;
+    transition: .5s;
+}
+
+@keyframes WinGlow{
+    0% {filter: drop-shadow(0 0 15px #00A4EF);}
+    25% {filter: drop-shadow(0 0 15px #7FBA00);}
+    50% {filter: drop-shadow(0 0 15px #FFB900);}
+    75% {filter: drop-shadow(0 0 15px #ff1911);}
+    100% {filter: drop-shadow(0 0 15px #00A4EF);}
+}
+
+#applogo{
+    transition: transform .3s ease-in-out;
+    filter: opacity(.5);
+}
+
+#applogo:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 15px white);
+    transition: .5s;
+}
+
+
+.clientele .clients h2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-left: 40%;
+    color: #fff;
+}
+
