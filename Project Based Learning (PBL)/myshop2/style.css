@@ -1,0 +1,17 @@
+#table{
+    white-space: nowrap;
+}
+
+#submitButton{
+    border-color: rgb(190, 0, 32);
+    color: rgb(190, 0, 32);
+}
+
+#submitButton:hover{
+    transition: 0.15s ease-in-out;
+    transition-property: all;
+    color: white;
+    background-color: rgb(190, 0, 32);
+    filter: drop-shadow(0 0 2.5px rgb(190, 0, 32));
+    font-weight: 500;
+}
